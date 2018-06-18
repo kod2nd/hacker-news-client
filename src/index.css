@@ -1,5 +1,15 @@
 body {
-  margin: 0;
+  margin: 10px auto;
   padding: 0;
   font-family: sans-serif;
+  max-width: 65%;
+}
+
+.author-source{
+  font-style: italic;
+  font-size: 12px;
+}
+
+h2{
+  font-size: 26px;
 }
