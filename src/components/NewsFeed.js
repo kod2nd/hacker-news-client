@@ -14,14 +14,12 @@ class NewsFeed extends Component {
     return (
       <div>
         {this.state.articles.map((article, i) => {
-          console.log(article)
           return <Article
             index={i}
             key={i}
             article={article}
             increaseVoteValue={(i) => { this.increaseVoteValue(i) }} decreaseVoteValue={(i) => { this.decreaseVoteValue(i) }} />
         })}
-
       </div>);
   }
 

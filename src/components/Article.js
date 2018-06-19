@@ -4,7 +4,7 @@ import ArticleBody from './ArticleBody';
 import ArticleFooter from './ArticleFooter';
 
 const Article = (props) => (
-    <div>
+    <div id="main">
         <ArticleHeader
             title={props.article.title}
             author={props.article.author}

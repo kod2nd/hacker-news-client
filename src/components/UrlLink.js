@@ -3,7 +3,7 @@ import React from 'react';
 const UrlLink = (props) => (
     <div>
         <div id="url-link">
-            <div>Link to Article:</div>
+            <div className="footer-title">Link to Article:</div>
             <a href={props.linkToArticle}>{props.linkToArticle}</a>
         </div>
     </div>

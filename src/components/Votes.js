@@ -3,14 +3,25 @@ import React from 'react';
 const Votes = (props) => (
     <div>
         <div className="vote-container">
-            <div>
+            <div className="footer-title">
                 {"Votes: " + props.votes}
             </div>
-            <button onClick={() => {
-                return props.increaseVoteValue(props.index)
-            }}>+</button>
-            <button onClick={() => { return props.decreaseVoteValue(props.index) }}>-</button>
+            <button
+                id="vote-up"
+                onClick={() => {
+                    return props.increaseVoteValue(props.index)
+                }}>
+                <img src="https://image.flaticon.com/icons/svg/148/148764.svg" alt="" />
+            </button>
+            <button
+                id="vote-down"
+                onClick={() => {
+                    return props.decreaseVoteValue(props.index)
+                }}>
+                <img src="https://image.flaticon.com/icons/svg/334/334047.svg" alt="" />
+                </button>
         </div>
+
     </div>
 );
 
