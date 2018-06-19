@@ -16,8 +16,11 @@ const Article = (props) => (
 
         <ArticleFooter
             linkToArticle={props.article.url}
+            index={props.index}
             votes={props.article.votes}
-            publishedAt={props.article.publishedAt} />
+            publishedAt={props.article.publishedAt}
+            increaseVoteValue={props.increaseVoteValue} 
+            decreaseVoteValue={props.decreaseVoteValue} />
     </div>
 );
 

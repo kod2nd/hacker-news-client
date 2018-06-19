@@ -13,3 +13,7 @@ body {
 h2{
   font-size: 26px;
 }
+
+.header {
+  margin: 100px 0;
+}
