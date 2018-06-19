@@ -1,8 +1,8 @@
 import React from 'react';
 
 const PublishedAtInfo = (props) => {
-    const dateTimeList = props.publishedAtInfo.split('T')
-    const time = dateTimeList[1]
+    const dateTimeList = props.publishedAtInfo.split('T');
+    const time = dateTimeList[1];
     return(
     <div>
         <div className="footer-title">Published on:</div>

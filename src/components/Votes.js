@@ -19,7 +19,7 @@ const Votes = (props) => (
                     return props.decreaseVoteValue(props.index)
                 }}>
                 <img src="https://image.flaticon.com/icons/svg/334/334047.svg" alt="" />
-                </button>
+            </button>
         </div>
 
     </div>
