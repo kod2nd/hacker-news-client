@@ -16,7 +16,7 @@ export const articles = [
     author: null,
     title:
       "VergeSense (YC S17) Is Hiring Multiple Engineering Roles (Embedded, ML, SWE)",
-    description: "Comments",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem exercitationem delectus et maxime rem molestiae inventore fugit quaerat distinctio quo mollitia at necessitatibus impedit libero iusto corporis, facilis doloribus aperiam, sed nihil accusamus tenetur repellendus laboriosam. Ut ratione id tenetur ea neque itaque ipsum fugit, nam error doloremque, modi quidem provident nihil! Minus corporis perferendis reprehenderit dolorum iure eum inventore id delectus amet sequi? Aut blanditiis ex, enim et laboriosam, quod, sit esse perspiciatis veritatis deleniti rem cupiditate saepe suscipit.",
     url: "https://news.ycombinator.com/item?id=17335041",
     votes: 5,
     urlToImage: "https://picsum.photos/300/300",
