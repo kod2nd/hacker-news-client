@@ -24,6 +24,8 @@ class NewsFeed extends Component {
       </div>);
   }
 
+  
+
   increaseVoteValue(index) {
     const updatedVotes = this.state.articles[index].votes + 1;
     const objectToUpdate = { ...this.state.articles[index], votes: updatedVotes };
